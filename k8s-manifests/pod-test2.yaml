@@ -10,7 +10,7 @@ spec:
     command: ["sh", "-c"]
     args:
     - |
-      wget -O /tmp/logs.txt https://raw.githubusercontent.com/jrknox1977/solid-robot/main/k8s-manifests/docs/logs.txt
+      wget -O /tmp/logs.txt https://b62a0b7c-91f2-4c60-bf79-5e1c89b1a1c7.s3.us-east-2.amazonaws.com/docs/logs.txt
       
       while true; do
         cat /tmp/logs.txt
