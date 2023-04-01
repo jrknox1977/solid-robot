@@ -12,4 +12,3 @@
 [INFO] 172.17.0.6:53152 - 53155 "AAAA IN postgres.namespace.svc.cluster.local. udp 51 false 512" NOERROR qr,aa,rd,ra 212 0.000
 [INFO] 172.17.0.7:54578 - 38148 "A IN mariadb.default.svc.cluster.local. udp 49 false 512" NXDOMAIN qr,aa,rd,ra 91 0.000
 [INFO] 172.17.0.7:60537 - 42135 "AAAA IN elasticsearch.default.svc.cluster.local. udp 55 false 512" NXDOMAIN qr,aa,rd,ra 181 0.000
-
