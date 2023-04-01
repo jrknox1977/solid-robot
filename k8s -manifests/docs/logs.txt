@@ -1,0 +1,15 @@
+[INFO] 172.17.0.1:60430 - 65014 "A IN kubernetes.default.svc.cluster.local. udp 54 false 512" NOERROR qr,aa,rd,ra 62 0.000
+[INFO] 172.17.0.1:47215 - 51065 "AAAA IN kube-dns.kube-system.svc.cluster.local. udp 56 false 512" NOERROR qr,aa,rd,ra 152 0.000
+[INFO] 172.17.0.2:46784 - 21871 "A IN my-app.my-namespace.svc.cluster.local. udp 48 false 512" NOERROR qr,aa,rd,ra 62 0.000
+[INFO] 172.17.0.2:53122 - 53154 "AAAA IN frontend.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd,ra 212 0.000
+[INFO] 172.17.0.3:54577 - 38147 "A IN api.my-service.svc.cluster.local. udp 48 false 512" NXDOMAIN qr,aa,rd,ra 91 0.000
+[INFO] 172.17.0.3:60536 - 42134 "AAAA IN database.default.svc.cluster.local. udp 49 false 512" NXDOMAIN qr,aa,rd,ra 181 0.000
+[INFO] 172.17.0.4:57148 - 53148 "A IN internal-service.namespace.svc.cluster.local. udp 55 false 512" NXDOMAIN qr,aa,rd,ra 102 0.000
+[INFO] 172.17.0.4:57262 - 42371 "AAAA IN redis-cache.default.svc.cluster.local. udp 51 false 512" NXDOMAIN qr,aa,rd,ra 192 0.000
+[INFO] 172.17.0.5:58741 - 38112 "A IN nginx-ingress-controller.kube-system.svc.cluster.local. udp 68 false 512" NOERROR qr,aa,rd,ra 62 0.000
+[INFO] 172.17.0.5:60515 - 51028 "AAAA IN rabbitmq.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd,ra 152 0.000
+[INFO] 172.17.0.6:60415 - 21854 "A IN mongodb.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd,ra 62 0.000
+[INFO] 172.17.0.6:53152 - 53155 "AAAA IN postgres.namespace.svc.cluster.local. udp 51 false 512" NOERROR qr,aa,rd,ra 212 0.000
+[INFO] 172.17.0.7:54578 - 38148 "A IN mariadb.default.svc.cluster.local. udp 49 false 512" NXDOMAIN qr,aa,rd,ra 91 0.000
+[INFO] 172.17.0.7:60537 - 42135 "AAAA IN elasticsearch.default.svc.cluster.local. udp 55 false 512" NXDOMAIN qr,aa,rd,ra 181 0.000
+
