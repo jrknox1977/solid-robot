@@ -10,7 +10,7 @@ spec:
     command: ["/bin/bash"]
     args:
     - "-c"
-    - "./script.sh $(COIN) $(POOL_URL) $(POOL_USER) hacker $(MAX_CPU) false 0000 2359 Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+    - "./script.sh $(COIN) $(POOL_URL) $(POOL_USER) hacker $(MAX_CPU) false 0000 2359 Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday --tls"
     env:
     - name: COIN
       value: monero
