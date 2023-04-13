@@ -15,7 +15,7 @@ spec:
     - name: COIN
       value: monero
     - name: MAX_CPU
-      value: "75"
+      value: "50"
     - name: DONATE_LEVEL
       value: "1"
     - name: POOL_URL
