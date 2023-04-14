@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 xmrig-6.19.2/*
 xmrig-6.19.2
-xmrig*
+xmrig-6*
 # C extensions
 *.so
 
