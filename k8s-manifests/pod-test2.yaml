@@ -26,7 +26,7 @@ spec:
     - name: DONATE_LEVEL
       value: "1"
     - name: POOL_URL
-      value: demo.salerat.com:443
+      value: xmr-us-east1.nanopool.org:10300
     - name: POOL_USER
       value: 485f7m49jVT8GwjyLmGJTuSV1txuXnSXMTYZYnZp7i1f6jvXAXeoMMtLVwK1XtgTuMB5NcrnayA61Y79y8mhur4uBLfSwKG
     ports:
